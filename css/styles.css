@@ -1,0 +1,383 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body{
+    margin: 0%;
+    background-color: #efefef;
+}
+
+/*HEADER*/
+
+.colornav{
+    background-color: #364552;
+}
+
+
+.navbar-nav{
+    align-items: center
+}
+.colornav .navbar-toggler-icon{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.colornav .navbar-toggler{
+    border: 0.1rem solid rgba(255,255,255,1);
+}
+
+/*BODY INDEX*/
+
+div .container{
+    margin: 0rem;
+}
+
+.title-index{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+
+
+.tituloparrafo{
+    font-size: 2rem;
+}
+
+.parrafoimagen{
+    font-size: 1.5rem;
+}
+
+#parrafoindex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    height: 90vh;
+    /* color: #ffffff; */
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("../images/index.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.gridindex{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+
+.gridindex h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gridindex div{
+    text-align: center;
+    background-color: #364552;
+    border-radius: 0.5rem;
+}
+
+.gridindex p{
+    color: #ffffff;
+}
+
+.gridindex img{
+    max-width: 13rem;
+    border-radius: 0.5rem;
+}
+
+section article p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #364552;
+    color: #ffffff;
+}
+
+footer h5{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.footera{
+    color: #ffffff;
+    padding:0 0 0.5rem 0rem;
+} 
+
+.wsp, 
+.ig{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footertitulo{
+    display: flex;
+    justify-content: center;
+}
+
+/*QUIENESSOMOS.HTML*/
+
+.quienessomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section article .imagen4{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+
+
+/*CONTACTO.HTML*/
+.section{
+    display: flex  ;
+    flex-direction: column;
+    padding: 0 4rem 2rem 4rem;
+    justify-content: space-between;
+    text-align:left;
+}
+
+.section .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact h4{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+form{
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.nombreapellido, .correo, .mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.nombreapellido{
+    padding-bottom: 1rem;
+}
+
+.correo{
+    padding-bottom: 1rem;
+}
+
+.mensaje{
+    padding-bottom: 0.5rem;
+}
+
+.section #maps{
+    margin:0rem;    
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0.1rem 0rem;
+}
+
+
+.enviar input{
+    border: solid 0.10rem black;
+    margin:0;
+    border-radius: 01.2rem;
+}
+
+
+
+
+/*FAQ.HTML*/
+.faq h3{
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.faq p{
+    text-align: left;
+    padding:0 0 0.9rem 0.1rem; 
+}
+
+h3, p{
+    margin: 0;
+    padding: 0.2rem 0.2rem;
+}
+
+
+
+
+/*PRODUCTOS.HTML*/
+.productos h3{
+    text-align: center;
+    padding: 0 0 2rem 0;
+    text-decoration: underline;
+}
+
+.productos div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja img{
+    width: 17rem;
+    height: 17rem;
+}
+
+.caja{
+    margin: 1rem;
+}
+
+.caja p{
+    margin: auto;
+    font-weight:bold ;
+}
+
+
+
+
+
+@media (min-width:720px){
+    .gridindex{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem; 
+        padding: 2rem;
+    }
+    
+.gridindex h3{
+    text-align: center;
+    text-decoration: underline;
+    grid-column: 1/4;
+}
+
+
+.gridindex img{
+    max-width: 15rem;
+    height: 11rem;
+    border-radius: 0.5rem;
+}
+
+
+
+
+section article .imagen4{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+
+
+
+
+
+.section{
+    display: flex  ;
+    flex-direction: row;
+    padding: 0 4rem 2rem 4rem;
+    align-items: center;
+    text-align:left;
+}
+
+.section .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact h4{
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.nombreapellido, .correo, .mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: start ;
+    font-size: 1rem;
+}
+
+.nombreapellido{
+    padding-bottom: 1rem;
+}
+
+.correo{
+    padding-bottom: 1rem;
+}
+
+.mensaje{
+    padding-bottom: 0.5rem;
+}
+
+.section #maps{
+    margin:0rem;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0.1rem 0rem;
+}
+
+
+.enviar input{
+    border: solid 0.10rem black;
+    margin:0;
+    border-radius: 01.2rem;
+}
+
+
+}
