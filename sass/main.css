@@ -1,0 +1,236 @@
+/*HEADER*/
+header .colornav {
+  background-color: #364552;
+}
+header .colornav .navbar-nav {
+  align-items: center;
+}
+header .colornav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+header .colornav .navbar-toggler {
+  border: 0.1rem solid rgb(255, 255, 255);
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+html body {
+  max-width: 100% !important;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0%;
+  background-color: #efefef;
+}
+
+/*BODY INDEX*/
+.container {
+  margin: 0rem;
+}
+.container .title-index {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.container section #parrafoindex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  height: 90vh;
+  /* color: #ffffff; */
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/index.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.container section #parrafoindex .tituloparrafo {
+  font-size: 2rem;
+}
+.container section #parrafoindex .parrafoimagen {
+  font-size: 1.5rem;
+}
+.container .gridindex {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+}
+.container .gridindex h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.container .gridindex div {
+  text-align: center;
+  background-color: #364552;
+  border-radius: 0.5rem;
+}
+.container .gridindex div p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+}
+.container .gridindex div img {
+  max-width: 13rem;
+  border-radius: 0.5rem;
+}
+
+/*QUIENESSOMOS.HTML*/
+.quienessomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quienessomos .title-index {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.quienessomos section article .imagen4 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+}
+
+/*CONTACTO.HTML*/
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem 2rem 4rem;
+  justify-content: space-between;
+  text-align: left;
+}
+.section .title-index {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.section .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section .contact h4 {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.section article form {
+  padding: 1rem 0rem 2rem 0rem;
+}
+.section article form .nombreapellido, .section article form .correo, .section article form .mensaje {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.section article form .nombreapellido .nombreapellido, .section article form .correo .nombreapellido, .section article form .mensaje .nombreapellido {
+  padding-bottom: 1rem;
+}
+.section article form .nombreapellido .correo, .section article form .correo .correo, .section article form .mensaje .correo {
+  padding-bottom: 1rem;
+}
+.section article form .nombreapellido .mensaje, .section article form .correo .mensaje, .section article form .mensaje .mensaje {
+  padding-bottom: 0.5rem;
+}
+.section article form .nombreapellido .enviar, .section article form .correo .enviar, .section article form .mensaje .enviar {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0.1rem 0rem;
+}
+.section article form .nombreapellido .enviar input, .section article form .correo .enviar input, .section article form .mensaje .enviar input {
+  border: solid 0.1rem black;
+  margin: 0;
+  border-radius: 1.2rem;
+}
+.section article #maps {
+  margin: 0rem;
+}
+.section article #maps iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*FAQ.HTML*/
+.faq .title-index {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.faq article h3 {
+  text-align: left;
+  padding: 0.5rem;
+}
+.faq article h3 p {
+  text-align: left;
+  padding: 0 0 0.9rem 0.1rem;
+}
+.faq h3, .faq p {
+  margin: 0;
+  padding: 0.2rem 0.2rem;
+}
+
+/*PRODUCTOS.HTML*/
+.productos .title-index {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.productos h3 {
+  text-align: center;
+  padding: 0 0 2rem 0;
+  text-decoration: underline;
+}
+.productos div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos div .caja {
+  margin: 1rem;
+}
+.productos div .caja p {
+  margin: auto;
+  font-weight: bold;
+}
+.productos div .caja img {
+  width: 17rem;
+  height: 17rem;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #364552;
+  color: #ffffff;
+}
+footer .footertitulo {
+  display: flex;
+  justify-content: center;
+}
+footer .footertitulo h5 {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+footer .wsp,
+footer .ig {
+  display: flex;
+  justify-content: center;
+}
+footer .wsp .footera,
+footer .ig .footera {
+  color: #ffffff;
+  padding: 0 0 0.5rem 0rem;
+}/*# sourceMappingURL=main.css.map */

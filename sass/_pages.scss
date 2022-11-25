@@ -1,0 +1,229 @@
+/*BODY INDEX*/
+
+.container{
+    margin: 0rem;
+    .title-index{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: bold;
+    }
+    section{
+        #parrafoindex{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: #ffffff;
+            height: 90vh;
+            /* color: #ffffff; */
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            ) 
+            ,url("../images/index.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+                .tituloparrafo{
+                    font-size: 2rem;
+                }
+                .parrafoimagen{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .gridindex{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            justify-items: center;
+            align-items: center;
+            padding: 2rem;
+            h3{
+                text-align: center;
+                text-decoration: underline;
+            }
+            div{
+                text-align: center;
+                background-color: #364552;
+                border-radius: 0.5rem;
+                p{
+                    color: #ffffff;
+                    text-align: center;
+                    font-size: 1rem;
+                }
+                img{
+                    max-width: 13rem;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+}
+
+
+
+/*QUIENESSOMOS.HTML*/
+
+.quienessomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title-index{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: bold;
+    }
+    section article .imagen4{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 1rem 0 1rem 0;
+    }
+}
+
+
+
+
+/*CONTACTO.HTML*/
+.section{
+    display: flex  ;
+    flex-direction: column;
+    padding: 0 4rem 2rem 4rem;
+    justify-content: space-between;
+    text-align:left;
+    .title-index{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: bold;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h4{
+            margin: 0;
+            padding-bottom: 1rem;
+        }
+    }
+    article{
+        form{
+            padding: 1rem 0rem 2rem 0rem;
+            .nombreapellido, .correo, .mensaje{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1.5rem;
+                .nombreapellido{
+                    padding-bottom: 1rem;
+                }
+                
+                .correo{
+                    padding-bottom: 1rem;
+                }
+                
+                .mensaje{
+                    padding-bottom: 0.5rem;
+                }
+                .enviar{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    padding: 0.1rem 0rem;
+                    input{
+                        border: solid 0.10rem black;
+                        margin:0;
+                        border-radius: 01.2rem;
+                    }
+                }
+            }
+        }
+        #maps{
+            margin:0rem;    
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
+        }    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FAQ.HTML*/
+.faq {
+    .title-index{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: bold;
+    }
+    article{
+        h3 {
+        text-align: left;
+        padding: 0.5rem;
+        p{
+            text-align: left;
+            padding:0 0 0.9rem 0.1rem; 
+        }
+    }
+    }
+    h3, p{
+        margin: 0;
+        padding: 0.2rem 0.2rem;
+    }
+}
+
+
+
+
+
+
+/*PRODUCTOS.HTML*/
+.productos{
+    .title-index{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+        font-weight: bold;
+    }
+    h3{
+        text-align: center;
+        padding: 0 0 2rem 0;
+        text-decoration: underline;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .caja{
+            margin: 1rem;
+            p{
+                margin: auto;
+                font-weight:bold ;
+            }
+            img{
+                width: 17rem;
+                height: 17rem;
+            }
+        }
+    }
+} 
+
+
+
+
+
+

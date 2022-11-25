@@ -1,0 +1,27 @@
+/*FOOTER*/
+footer{
+    background-color: #364552;
+    color: #ffffff;
+    .footertitulo{
+        display: flex;
+        justify-content: center;
+        h5{
+            font-size: 1rem;
+            padding-top: 0.5rem;
+        }
+    }
+    .wsp, 
+    .ig{
+        display: flex;
+        justify-content: center;
+        .footera{
+            color: #ffffff;
+            padding:0 0 0.5rem 0rem;
+        } 
+    }
+}
+
+
+
+
+
